@@ -1,7 +1,7 @@
 // Connecting back-end with browser api - fecth()
 async function getContentApi() {
   try {
-    const response = await fetch('http://localhost:3333/')
+    const response = await fetch('http://localhost:3333/jsonplaceholder')
 
     const data = await response.json()
     
