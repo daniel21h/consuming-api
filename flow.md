@@ -4,7 +4,7 @@
 
 Criar um API
 - [] Iniciar p projeto `yarn init -y`
-- [] Instalar as dependências `yarn add express cors axios`
+- [] Instalar as dependências `yarn add express nodemon cors axios`
 - [] Criar uma rota para acessar a API
 - [] Servir a API
 - [] Habilitar o CORS
