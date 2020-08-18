@@ -3,18 +3,18 @@
 ## API
 
 Criar um API
-- [] Iniciar p projeto `yarn init -y`
-- [] Instalar as dependências `yarn add express nodemon cors axios`
-- [] Criar uma rota para acessar a API
-- [] Servir a API
+- [x] Iniciar p projeto `yarn init -y`
+- [x] Instalar as dependências `yarn add express nodemon cors axios`
+- [x] Criar uma rota para acessar a API
+- [x] Servir a API
 - [] Habilitar o CORS
 - [] Habilitar o nodemon para reiniciar o server
 
 ## Frontend
 Consumir API
 
-- [] Utilizar fetch para consumir nossa API backend
-- [] Explicar Promise - Async/await
+- [x] Utilizar fetch para consumir nossa API backend
+- [x] Promise - Async/await
 - [] Usar try/catch
 - [] Mostrar a resposta na tela
 

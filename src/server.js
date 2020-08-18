@@ -1,9 +1,15 @@
 const express = require('express');
+const cors = require('cors');
 
 const server = express()
 
+server.use(cors())
+
 server.get('/', (request, response) => {
-  return response.json({ message: 'Hello World' })
+  return response.json([
+    { name: 'Daniel' },
+    { name: 'Rafael' },
+  ])
 })
 
 server.listen(3333, () => {
