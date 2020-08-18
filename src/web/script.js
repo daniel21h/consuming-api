@@ -3,11 +3,22 @@ async function getContentApi() {
   try {
     const response = await fetch('http://localhost:3333/')
 
-    console.log(response)
-    return response
+    const data = await response.json()
+    
+    showInPage(data)
   } catch (error) {
     console.error(error)
   }
 }
 
 getContentApi()
+
+function showInPage(users) {
+  let output = ''
+
+  for (let user of users) {
+    output += `<li>${user.name}</li>`
+  }
+
+  document.querySelector('main').innerHTML = output
+}
